@@ -1,0 +1,53 @@
+.login form{
+    background-color: rgb(241, 234, 225);
+    border-radius: 10px;
+}
+.login{
+    width: 300px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    /* height: 900px; */
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    top: 0;
+
+}
+
+.log{
+    text-align: center;
+}
+.form-content{
+    text-align: left;
+    margin-left: 3%;
+}
+.home{
+    background-color: bisque;
+}
+
+.form title{
+    margin-top: 6px;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    float: none;
+    background-image: url('bg.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+}
+.home-form{
+    float: right;
+}
+#search {
+width: 400px;
+padding-top: 5%;
+margin-top: 5%;
+margin-right: 12px;
+border: 2px solid seashell;
+border-radius: 10px;
+
+}
