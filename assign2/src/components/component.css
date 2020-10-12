@@ -35,19 +35,53 @@
     height: 100vh;
     float: none;
     background-image: url('bg.jpg');
+    margin-right: 5%;
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
 
 }
 .home-form{
     float: right;
+    margin-right: 5%;
 }
 #search {
-width: 400px;
+width: 600px;
 padding-top: 5%;
 margin-top: 5%;
 margin-right: 12px;
 border: 2px solid seashell;
 border-radius: 10px;
 
+}
+
+.site-title{
+    color: #ffff;
+    font-size: 40px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bolder;
+}
+
+.home-content{
+    margin: 20%;
+    float: right;
+}
+
+.image{
+    /* text-align: right; */
+}
+.temp{
+    color: white;
+    font-weight: lighter;
+    text-decoration-style: wavy;
+    font-size: 50px;
+   
+}
+
+.today{
+    margin-top: 6%;
+    width: 70px;
+    height: 80px;
+    border-radius: 5%;
 }
