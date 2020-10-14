@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useSate, useState} from 'react';
 import './component.css';
 import today from '../img/today.jpg';
 import imageHeader from './bg.jpg';
 // import bg from './../../public/bg.jpg';
 
+// const [temperature,setTemperature ]= useState(29);
+
+//  function Today(){
+//     const [temperature,setTemperature ]= useState(29);
+//  };
+
 function Home(){
+    const [temperature,setTemperature ]= useState(29);
     return(
         <div className="home">
             <div className="site-title">
@@ -12,7 +19,7 @@ function Home(){
             </div>
             <form className="home-form">
             <img className="today" src={today} alt="today"/><br/>
-                <label className="temp"><i>27&deg;C</i></label><br/>
+                <label className="temp" onClick ={()=> setTemperature(temperature+1)}><i>{temperature}&deg;C</i></label><br/>
                 <input type="text" id="search" placeholder="Search Here"/>
             </form>
            <div className="home-content">
