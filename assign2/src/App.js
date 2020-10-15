@@ -4,11 +4,14 @@ import './App.css';
 import Login from './components/login';
 import Home from './components/homepage';
 import InfoArea from './components/infoarea';
+import Trial from './components/Events';
 
 function App() {
   return (
     <div className="App">
-     {/* <Login/> */}
+      {/* < Trial/> */}
+
+     <Login/>
      <div>
        <Home/>
        <Login/>

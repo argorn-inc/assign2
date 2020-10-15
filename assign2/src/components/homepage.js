@@ -2,6 +2,10 @@ import React, {useState, useEffect} from 'react';
 import './component.css';
 import today from '../img/today.jpg';
 import imageHeader from './bg.jpg';
+import Login from './login';
+
+
+
 
 function Home(){
     const [temperature,setTemperature ]= useState(29);

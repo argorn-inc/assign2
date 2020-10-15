@@ -1,7 +1,15 @@
 import React from 'react';
 import './component.css';
+import { useEffect, useState } from 'react';
 
-function Home(){
+// function submit(){
+//     const [value, setValue]= useState('login here');
+// }
+
+function Login(){
+    const [userLoggedIn, setUserLoggedIn]= useState(false);
+    const [value, setValue]= useState('Login');
+    const [hidden, setHidden] =useState(true);
     return(
         <div className="login">
         <form className="log">
@@ -14,7 +22,8 @@ function Home(){
             <label>Password: </label><br/>
             <input type="password"/>
             <br/><br/>
-            <input type="submit" value="Log In Here"/>
+            <button hidden={hidden} onClick={()=>setHidden(true)}>Logout</button>
+            {hidden===true && <input type="button" onClick={() => setHidden(false)} value={value}/>}
             <hr/>
             </div>
         </form>
@@ -23,4 +32,4 @@ function Home(){
     );
 }
 
-export default Home;
+export default Login;

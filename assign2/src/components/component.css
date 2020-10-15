@@ -85,3 +85,7 @@ border-radius: 10px;
     height: 80px;
     border-radius: 5%;
 }
+.temp{
+    font-size: larger;
+    color: rgb(195, 255, 0);
+}
